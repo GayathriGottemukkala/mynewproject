@@ -1,0 +1,44 @@
+.container-bg{
+    display: flex;
+    flex-direction:column;
+   font-family: "roboto";
+    border-radius: 10px;
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.cart-giv{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding:30px;
+    gap:10px;
+    border-radius: 10px;
+
+}
+.email{
+    align-self:flex-start;
+}
+input{
+    border:none;
+    border-bottom:solid 2px grey;
+    
+}
+.head{
+    color:blue;
+}
+span{
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.login-btn{
+    margin-top: 20px;
+    padding: 8px;
+    border:none;
+    background-color: blue;
+    color: white;
+    font-family: "roboto";
+    font-size: 15px;
+
+}
